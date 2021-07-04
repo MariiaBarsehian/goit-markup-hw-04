@@ -66,6 +66,7 @@ img {
 }
 .header-container {
   display: flex;
+  padding: 24px 0px 25px;
 }
 .header-container::after {
   display: block;
@@ -140,7 +141,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
   text-decoration: none;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 32px 0px;
 }
 .contact-link:hover,
@@ -151,6 +154,21 @@ img {
 :current {
   color: var(--text-color-hover);
 }
+.contact-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.contact-icon {
+  fill: var(--text-color-grey);
+}
+
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon {
+  fill: var(--text-color-hover);
+}
+
 /* ================hero================*/
 
 .hero-section-descisions {
