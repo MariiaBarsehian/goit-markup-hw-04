@@ -380,6 +380,7 @@ img {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+  background-position: center;
 }
 .clients-list-item {
   font-size: 36px;
@@ -397,6 +398,7 @@ img {
   height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  /*padding-top: 16px;*/
 }
 .clients-list-item-link:hover,
 clients-list-item-link:focus {
