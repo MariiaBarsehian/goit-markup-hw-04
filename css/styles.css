@@ -543,7 +543,7 @@ img {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-right: 93px;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 .type-of-works-list:not(:last-child) {
